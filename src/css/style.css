@@ -1,0 +1,134 @@
+body{
+    /* background: url(../images/background.jpg) no-repeat; */
+    /* background-size: cover; */
+    background-color: #54007dff;
+    font-family: "Quicksand", sans-serif;
+}
+.menu{
+    background-color: rgba(42, 1, 71, 0.6);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 45px;
+}
+.menu .logo img{
+    width: 25%;
+    height: 18%;
+    border-radius: 50%;
+    margin: 2% 5%;
+}
+.menu .navegacao{
+    margin: 0 20px;
+}
+.menu .navegacao .botoes{
+    display: flex;
+    gap: 30px;
+}
+.menu .navegacao .botoes li a{
+    color: #fff;
+    background-color: #f91f5bff;
+    padding: 10px 30px;
+    border-radius: 15px;
+}
+.menu .navegacao .botoes li a:hover{
+    background-color: #fd5662;
+    box-shadow: 0 0 20px #f91f5bff;
+    cursor: pointer;
+    transition: 0.3s ease-in-out
+}
+.anuncio{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 80px;
+}
+.anuncio .titulo{
+    margin-bottom: 60px;
+    color: #fff;
+    font-size: 45px;
+}
+.anuncio .titulo:hover{
+    transition: 0.3s ease-in-out;
+    text-shadow: 0 6px 4px #fd5662;
+    cursor: pointer;
+}
+.anuncio .ofertas{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 50px;
+}
+.anuncio .ofertas p{
+    max-width: 200px;
+    background-color: rgba(248, 100,101, 0.8);
+    padding: 20px;
+    border-radius: 48%;
+    cursor: pointer;
+}
+.anuncio .ofertas p:hover{
+    background-color: #fd5662;
+    box-shadow: 0 0 20px #fd5662;
+    transition: 0.3s ease-in-out;
+    font-weight: bold;
+}
+.conteudo{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+}
+.conteudo .produto{
+    background-color: rgba(250, 23, 95, 0.8);
+    max-width: 400px;
+    padding: 25px 40px;
+    border-radius: 15px;
+}
+.conteudo .produto img{
+    height: 350px;
+    width: 250px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+.conteudo .produto .titulo{
+    margin-bottom: 10px;
+}
+.conteudo .produto .informacoes{
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+.conteudo .produto .botao{
+    background-color: #004b2b;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.rodape{
+    background-color: rgba(42, 1, 71, 0.6);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 110px;
+    padding: 25px;
+}
+.rodape .info{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.rodape .social{
+    display: flex;
+    align-items: center; 
+}
+.rodape .social .icones{
+    display: flex;
+    gap: 40px;
+}
+.rodape .social .icones a {
+    color: #f91f5bff;
+    font-size: 30px;
+}
