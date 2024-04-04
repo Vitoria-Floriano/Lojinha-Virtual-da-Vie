@@ -1,0 +1,76 @@
+.conteudo{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 80px;;
+}
+.conteudo .titulo{
+    color: #fff;
+    font-size: 45px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+.conteudo .titulo:hover{
+    transition: 0.3s ease-in-out;
+    text-shadow: 0 6px 4px #fd5662;
+    cursor: pointer;
+}
+.conteudo .texto{
+    color: #fff;
+    /* width: 60%; */
+    margin-bottom: 20px;
+}
+.conteudo .cadastro,
+.conteudo .cadastrado{
+    background-color: rgba(42, 1, 71, 0.6);
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    padding: 60px;
+    width: 570px;
+}
+.conteudo .cadastro .input{
+    width: 450px;
+    height: 45px;
+    border: none;
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-family: "Quicksand", sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+.conteudo .cadastro .campo-obrigatorio{
+    content: "campo obrigatório";
+    border: 2px solid rgb(238, 14, 14);
+}
+.conteudo .texto,
+.conteudo .input,
+.conteudo .botao{
+    font-family: "Quicksand", sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+.conteudo .botao{
+    background-color: #f91f5bff;
+    border: none;
+    border-radius: 8px;
+    padding: 16px;
+    width: 450px;
+    color: #fff;
+    cursor: pointer;
+    text-align: center;
+}
+.conteudo .botao:hover{
+    background-color: #fd5662;
+    transition: 0.3s ease-in-out;
+}
+.conteudo .subtitulo{
+    font-size: 15px;
+    color: #fff;
+    margin-bottom: 5px;
+}
+.conteudo .titulo-div{
+    color: #fff;
+    margin-bottom: 25px;
+}
