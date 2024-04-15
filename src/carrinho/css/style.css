@@ -1,0 +1,42 @@
+main{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+}
+main div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* gap: 15px; */
+    background-color: rgba(250, 23, 95, 0.8);
+    width: 300px;
+    padding: 25px 40px;
+    border-radius: 15px;
+    color: #fff;
+}
+h3{
+    color: #fff;
+}
+img{
+    height: 350px;
+    width: 250px;
+    align-self: center;
+    border-radius: 8px;
+    margin-top: 15px;
+}
+a{
+    width: 100%;
+    text-decoration: none;
+    color: #fff;
+}
+button{
+    background-color: #004b2b;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    margin-left: 48%;
+    margin-bottom: 40px;
+}

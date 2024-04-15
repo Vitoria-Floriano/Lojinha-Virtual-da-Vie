@@ -28,7 +28,15 @@
         </div>
 
         <nav class="navegacao">
+            <input type="checkbox" id="menu-hamburguer">
+            <label for="menu-hamburguer">
+                <div class="burguer">
+                    <span class="hamburguer"></span>
+                </div>
+            </label>
+
             <ul class="botoes">
+                <li><a href="./src/carrinho/carrinho.html" target="_blank"><i class="fas fa-shopping-cart"></i></a></li>
                 <li><a href="#">Home</a></li>
                 <li><a href="./src/sobre/sobre.html">Sobre</a></li>
                 <li><a href="./src/contato/contato.html">Contato</a></li>
@@ -57,7 +65,7 @@
 
     <main class="conteudo">
 
-        <div class="produto">
+        <div class="produto" id="vestido-rosa">
             <img src="./src/home/images/vestido-rosa.jpg" alt="vestido rosa">
             <h3 class="titulo">Vestido Rosa</h3>
 
@@ -69,10 +77,10 @@
                     descrição do vestido.
                 </p>
             </div>
-            <a href="#" class="botao">Comprar</a>
+            <button class="botao compras">Adicionar ao carrinho</button>
         </div>
 
-        <div class="produto">
+        <div class="produto" id="conjunto-azul">
             <img src="./src/home/images/conjunto-azul.jpg" alt="conjunto azul">
             <h3 class="titulo">Conjunto Azul</h3>
 
@@ -84,10 +92,10 @@
                     descrição do vestido.
                 </p>
             </div>
-            <a href="#" class="botao">Comprar</a>
+            <button class="botao">Adicionar ao carrinho</button>
         </div>
 
-        <div class="produto">
+        <div class="produto" id="tomara-que-caia-vermelho">
             <img src="./src/home/images/tomara-que-caia-vermelho.jpg" alt="tomara que caia">
             <h3 class="titulo">Tomara que Caia</h3>
 
@@ -99,10 +107,10 @@
                     descrição do vestido.
                 </p>
             </div>
-            <a href="#" class="botao">Comprar</a>
+            <button class="botao compras">Adicionar ao carrinho</button>
         </div>
 
-        <div class="produto">
+        <div class="produto" id="vestido-preto">
             <img src="./src/home/images/vestido-preto.jpg" alt="vestido preto">
             <h3 class="titulo">Vestido Preto</h3>
 
@@ -114,10 +122,10 @@
                     descrição do vestido.
                 </p>
             </div>
-            <a href="#" class="botao">Comprar</a>
+            <button class="botao compras">Adicionar ao carrinho</button>
         </div>
 
-        <div class="produto">
+        <div class="produto" id="vestido-vermelho">
             <img src="./src/home/images/vestido-vermelho.jpg" alt="vestido vermelho">
             <h3 class="titulo">Vestido Vermelho</h3>
 
@@ -129,12 +137,12 @@
                     descrição do vestido.
                 </p>
             </div>
-            <a href="#" class="botao">Comprar</a>
+            <button class="botao compras">Adicionar ao carrinho</button>
         </div>
 
-        <div class="produto">
+        <div class="produto" id="vestido-preto-2">
             <img src="./src/home/images/preto-2.jpg" alt="vestido preto-2">
-            <h3 class="titulo">Vestido Preto</h3>
+            <h3 class="titulo">Vestido Preto Detalhado</h3>
 
             <div class="informacoes">
                 <p class="valor">
@@ -144,7 +152,7 @@
                     descrição do vestido.
                 </p>
             </div>
-            <a href="#" class="botao">Comprar</a>
+            <button class="botao compras">Adicionar ao carrinho</button>
         </div>
     </main>
 
@@ -161,11 +169,14 @@
         <nav class="social">
             <ul class="icones">
                 <li><a href="https://github.com/Vitoria-Floriano" target="_blank"><i class="fab fa-github"></i></a></li>
-                <li><a href="https://www.linkedin.com/in/vitoria-floriano/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/vitoria-floriano/" target="_blank"><i
+                            class="fab fa-linkedin"></i></a></li>
                 <li><a href="https://wa.me/+5511997659097" target="_blank"><i class="fab fa-whatsapp"></i></a></li>
             </ul>
         </nav>
     </footer>
+
+    <script src="./src/home/js/index.js"></script>
 </body>
 
 </html>

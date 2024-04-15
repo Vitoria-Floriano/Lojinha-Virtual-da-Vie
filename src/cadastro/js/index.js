@@ -4,14 +4,10 @@ const inputs = document.getElementsByClassName("input");
 const containerCadastro = document.getElementById("container-cadastro");
 const containerCadastrado = document.getElementById("container-cadastrado");
 
-const formulario = document.querySelectorAll(".mostrar");
-const novoUsuario = document.querySelectorAll(".esconder");
-
 containerCadastro.style.display = "block";
 containerCadastrado.style.display = "none";
 
 function cadastro() {
-    debugger;
     for (let i = 0; i < inputs.length; i++) {
         let dadoDoUsuario = inputs[i].value;
         if (dadoDoUsuario === "") {

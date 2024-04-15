@@ -1,6 +1,7 @@
 body{
     background-color: #54007dff;
     font-family: "Quicksand", sans-serif;
+    height: 100vh;
 }
 .menu{
     background-color: rgba(42, 1, 71, 0.6);
