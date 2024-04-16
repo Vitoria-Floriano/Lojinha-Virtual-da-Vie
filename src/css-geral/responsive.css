@@ -40,7 +40,6 @@
 .menu input{
     display: none;
 }
-
 @media(max-width: 900px){
     .menu{
         width: 100%;
@@ -51,6 +50,7 @@
     }
     .menu .burguer{
         display: block;
+        align-self: center;
     }
     .menu .navegacao {
         position: absolute;
@@ -64,11 +64,16 @@
     }
     .menu input:checked ~.botoes{
         display: block;
+        background-color: rgba(42, 1, 71, 0.3);
+        padding: 10px;
+        margin-top: 30px;
     }
     .menu .navegacao .botoes a{
         text-align: center;
         padding: 20px;
+        margin: 25px;
         display: block;
+        ;
     }
     .rodape{
         font-size: 10px;

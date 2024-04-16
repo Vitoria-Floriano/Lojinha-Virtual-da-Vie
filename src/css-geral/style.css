@@ -10,6 +10,7 @@ body{
     align-items: center;
     justify-content: space-between;
     margin-bottom: 45px;
+    padding: 20px;
 }
 .menu .logo img{
     width: 80px;

@@ -25,7 +25,7 @@
     width: 200px;
     background-color: rgba(248, 100,101, 0.8);
     padding: 15px;
-    border-radius: 48%;
+    border-radius: 15%;
     cursor: pointer;
 }
 .anuncio .ofertas p:hover{
@@ -49,6 +49,10 @@
     width: 400px;
     padding: 50px 40px;
     border-radius: 15px;
+}
+.conteudo .produto:hover{
+    box-shadow: 0 0 20px #fd5662;
+    transition: 0.3s ease-in-out;
 }
 .conteudo .produto img{
     height: 350px;
