@@ -1,0 +1,65 @@
+@media (max-width: 800px) {
+    .conteudo .titulo{
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+    .conteudo .cadastro .texto{
+        font-size: 14px;
+    }
+    .conteudo .cadastro,
+    .conteudo .cadastrado {
+        width: 500px;
+        padding: 20px 0;
+    }
+    .conteudo .cadastro .texto,
+    .conteudo .cadastro .input,
+    .conteudo .botao {
+        width: 300px;
+        font-size: 14px;
+        align-self: center;
+    }
+    .conteudo .cadastro .texto, 
+    .conteudo .cadastro .input{
+        height: 30px;
+    }
+    .subtitulo{
+        align-self: center;
+    }
+    .botao{
+        text-align: center;
+    }
+    #container-cadastrado,
+    #container-cadastrado .texto,
+    #container-cadastrado .botao{
+        font-size: 15px;
+        text-align: center;
+    }
+    #container-cadastrado .texto {
+        width: 200px;
+        align-self: center;
+    }
+}
+
+@media(max-width:450px){
+    .conteudo .cadastro,
+    .conteudo .cadastrado{
+        width: 300px;
+    }
+    #container-cadastrado,
+    #container-cadastrado .texto,
+    #container-cadastrado .botao{
+        font-size: 10px;
+        text-align: center;
+    }
+    #container-cadastrado .botao{
+        width: 100px;
+        height: 15px;
+        padding: 0;
+        text-align: center;
+    }
+    .conteudo .cadastro .texto,
+    .conteudo .cadastro .input,
+    .conteudo .botao{
+        width: 250px;
+    }
+}

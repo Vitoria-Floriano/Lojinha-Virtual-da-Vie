@@ -22,9 +22,9 @@
     gap: 50px;
 }
 .anuncio .ofertas p{
-    max-width: 200px;
+    width: 200px;
     background-color: rgba(248, 100,101, 0.8);
-    padding: 20px;
+    padding: 15px;
     border-radius: 48%;
     cursor: pointer;
 }
@@ -37,7 +37,7 @@
 .conteudo{
     display: flex;
     justify-content: center;
-    gap: 50px;
+    gap: 90px;
     flex-wrap: wrap;
     margin-bottom: 100px;
 }
