@@ -1,4 +1,7 @@
 @media (max-width: 800px){
+    body{
+        height: 100vh;
+    }
     .conteudo .titulo{
         font-size: 30px;
     }
@@ -13,7 +16,7 @@
         font-size: 25px;
     }
     .conteudo .card{
-        width: 300px;
+        width: 280px;
         font-size: 12px;
     }
     .contato .social .icones{

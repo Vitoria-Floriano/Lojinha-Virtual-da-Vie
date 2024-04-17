@@ -51,7 +51,7 @@
     border-radius: 15px;
 }
 .conteudo .produto:hover{
-    box-shadow: 0 0 20px #fd5662;
+    box-shadow: 0 0 20px #000;
     transition: 0.3s ease-in-out;
 }
 .conteudo .produto img{
@@ -78,4 +78,9 @@
     padding: 10px 20px;
     border-radius: 10px;
     border: none;
+}
+.conteudo .produto .botao:hover{
+    cursor: pointer;
+    padding: 15px 25px;
+    transition: 0.2s ease-in-out;
 }
