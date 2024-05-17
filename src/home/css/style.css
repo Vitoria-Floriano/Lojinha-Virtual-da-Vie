@@ -3,11 +3,10 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    margin-bottom: 80px;
 }
 .anuncio .titulo{
     margin-bottom: 60px;
-    color: #fff;
+    color: #f91f5bff;
     font-size: 45px;
 }
 .anuncio .titulo:hover{
@@ -20,24 +19,24 @@
     justify-content: space-evenly;
     align-items: center;
     gap: 50px;
+    margin-bottom: 25px;
 }
 .anuncio .ofertas p{
     width: 200px;
-    background-color: rgba(248, 100,101, 0.8);
+    background-color: rgba(30, 215,96, 1);
     padding: 15px;
     border-radius: 15%;
     cursor: pointer;
 }
 .anuncio .ofertas p:hover{
-    background-color: #fd5662;
-    box-shadow: 0 0 20px #fd5662;
+    box-shadow: 0 0 20px rgba(30, 215,96, 1);
     transition: 0.3s ease-in-out;
     font-weight: bold;
 }
 .conteudo{
     display: flex;
     justify-content: center;
-    gap: 90px;
+    gap: 20px;
     flex-wrap: wrap;
     margin-bottom: 100px;
 }
@@ -45,20 +44,25 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: rgba(250, 23, 95, 0.8);
-    width: 400px;
-    padding: 50px 40px;
+    width: 250px;
+    padding: 15px;
     border-radius: 15px;
+}
+.conteudo .descontos{
+    box-shadow: 0 0 10px rgba(30, 215,96, 1);
 }
 .conteudo .produto:hover{
     box-shadow: 0 0 20px #000;
     transition: 0.3s ease-in-out;
 }
+.conteudo .descontos:hover{
+    box-shadow: 0 0 20px #f91f5bff;
+}
 .conteudo .produto img{
-    height: 350px;
-    width: 250px;
+    width: 180px;
+    height: 239px;
     align-self: center;
-    border-radius: 8px;
+    /* border-radius: 8px; */
     margin-bottom: 10px;
 }
 .conteudo .produto .titulo{
@@ -67,13 +71,25 @@
 .conteudo .produto .informacoes{
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     width: 100%;
-    line-height: 25px;
+    font-size: 14px;
     margin-bottom: 20px;
 }
+.conteudo .produto .informacoes .valor{
+    background-color: rgba(30, 215,96, 1);
+    padding: 3px;
+    border-radius: 4px;
+}
+.conteudo .produto .informacoes .texto{
+    color: grey;
+}
+.conteudo .produto .informacoes .desconto{
+    color: rgba(30, 215,96, 1);
+    font-weight: bolder;
+}
 .conteudo .produto .botao{
-    background-color: #004b2b;
+    background-color: #f91f5bff;
     color: #fff;
     padding: 10px 20px;
     border-radius: 10px;
@@ -81,6 +97,5 @@
 }
 .conteudo .produto .botao:hover{
     cursor: pointer;
-    padding: 15px 25px;
-    transition: 0.2s ease-in-out;
+    transition: 0.3s ease-in-out;
 }

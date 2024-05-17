@@ -7,8 +7,13 @@
 }
 .contato .titulo{
     margin-bottom: 20px;
-    color: #fff;
+    color: #f91f5bff;
     font-size: 45px;
+}
+.contato .titulo:hover{
+    transition: 0.3s ease-in-out;
+    text-shadow: 0 6px 4px #fd5662;
+    cursor: pointer;
 }
 .contato .social .icones {
     display: flex;

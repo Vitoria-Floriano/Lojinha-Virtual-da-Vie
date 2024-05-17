@@ -6,7 +6,7 @@
 }
 .conteudo .titulo{
     margin-bottom: 60px;
-    color: #fff;
+    color: #f91f5bff;
     font-size: 45px;
 }
 .conteudo .titulo:hover{
@@ -15,7 +15,6 @@
     cursor: pointer;
 }
 .conteudo .card {
-    background-color: rgba(42, 1, 71, 0.6);
     color: #fff;
     max-width: 880px;
     padding: 30px;
@@ -25,6 +24,12 @@
 .conteudo .card .subtitulo,
 .conteudo .card .texto{
     margin-bottom: 20px;
+}
+.conteudo .card .subtitulo{
+    color: #f91f5bff;
+}
+.conteudo .card .texto{
+    color: #000;
 }
 .conteudo .card .texto a{
     color:#fd5662;
