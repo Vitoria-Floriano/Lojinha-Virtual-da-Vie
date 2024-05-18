@@ -21,19 +21,19 @@
     }
     .conteudo{
         gap: 40px;
+        min-height: 100vh;
     }
     .conteudo .produto{
-        max-width: 100px;
+        width: 200px;
     }
     .conteudo .produto img{
-        height: 80px;
-        width: 80px;
+        width: px;
     }
     .conteudo .titulo{
-        font-size: 12px;
+        font-size: 14px;
     }
     .conteudo .produto .informacoes {
-        font-size: 8px;
+        font-size: 12px;
     }
     .conteudo .produto .botao{
         padding: 8px 8px; 
@@ -42,11 +42,15 @@
 }
 
 @media(max-width: 450px){
+    
     .anuncio .ofertas{
         flex-wrap: wrap;
     }
     .anuncio .ofertas p{
         max-width: 140px;
         padding: 10px;
+    }
+    .conteudo{
+        min-height: 100vh;
     }
 }
